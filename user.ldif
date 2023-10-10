@@ -1,0 +1,14 @@
+dn: uid=joe,ou=People,dc=delledu,dc=lab
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: joe
+sn: Doe
+givenName: Joe
+cn: Joe Doe
+displayName: Joe Doe
+uidNumber: 10000
+gidNumber: 5000
+userPassword: {SSHA}k4Q0wRBfmChwPIpaA0mUfZ+gEwjuLWmJ
+loginShell: /bin/bash
+homeDirectory: /home/joe

@@ -1,0 +1,4 @@
+dn: cn=developers,ou=Groups,dc=delledu,dc=lab
+objectClass: posixGroup
+cn: developers
+gidNumber: 5000
