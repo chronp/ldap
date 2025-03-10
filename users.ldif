@@ -1,0 +1,45 @@
+dn: uid=john,dc=delledu,dc=lab
+objectClass: top
+objectClass: account
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: john
+uid: john
+uidNumber: 16859
+gidNumber: 100
+homeDirectory: /home/john
+loginShell: /bin/bash
+gecos: john
+userPassword: {crypt}x
+description: User Account
+
+dn: uid=sera,dc=delledu,dc=lab
+objectClass: top
+objectClass: account
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: sera
+uid: sera
+uidNumber: 16860
+gidNumber: 100
+homeDirectory: /home/sera
+loginShell: /bin/bash
+gecos: sera
+userPassword: {crypt}x
+description: User Account
+
+dn: uid=penni,dc=delledu,dc=lab
+objectClass: top
+objectClass: account
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: penni
+uid: penni
+uidNumber: 16861
+gidNumber: 100
+homeDirectory: /home/penni
+loginShell: /bin/bash
+gecos: penni
+userPassword: {crypt}x
+description: User Account
+
